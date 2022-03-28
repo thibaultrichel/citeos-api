@@ -4,7 +4,7 @@ from keras.models import load_model
 
 
 def loadModel():
-    path = "../models/LSTM_multi_with_target.h5"
+    path = "./LSTM_multi_with_target.h5"
     return load_model(path)
 
 
